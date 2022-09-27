@@ -5,8 +5,16 @@ def hello():
 		hellomars()
 	if sys.argv[1] == "jupiter":
 		hellojupiter()
+	elif sys.argv[1] == "moon":
+		hellomoon()
 	else:
 		helloworld()
+
+
+
+def hellomoon():
+	print("Hello moon!")
+
 def hellomars():
 	print("Hello mars")
 
